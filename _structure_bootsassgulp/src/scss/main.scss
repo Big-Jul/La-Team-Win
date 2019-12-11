@@ -1,0 +1,15 @@
+@import "common/variables";
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+@import "common/fonts";
+@import "common/mixins";
+@import "common/global";
+
+@import "components/buttons";
+@import "components/forms";
+
+@import "layouts/header";
+@import "layouts/navigation";
+@import "layouts/footer";
+@import "layouts/home";  
