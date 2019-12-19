@@ -38,7 +38,7 @@ const paths = {
 export const serve = (done) => {
 	server.init({
     server: {
-      baseDir: "./"
+      baseDir: "./dist/"
     },
     port: 3000
   });
