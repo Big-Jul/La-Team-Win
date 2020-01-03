@@ -6,7 +6,7 @@
   <meta name="description" content="...">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Structure Gulp</title>
+  <title>3A - Pour que vieillir rime avec plaisir</title>
   <link rel="shortcut icon" href="./images/favicon.ico">
   <link rel="stylesheet" href="css/main.css" type="text/css">
 
@@ -15,10 +15,11 @@
 <body>
 <!-- ======================HEADER JULIA=========================== -->
 <header class="header">
-  <div class="header-content container">
+  <div class="container">
 <div class="header-tel">
   <p>02.97.56.35.23</p>
 </div>
+<div class="header-content">
 <div class="header-logo">
  <img src="./images/footer-logo.png" alt="logo">
 </div>
@@ -26,16 +27,26 @@
   <h3>Pour que vieillir rime avec plaisir</h3>
 </div>
 
-<nav class="main-nav">
-  <a href="#">accueil</a>
-  <a href="">nos services</a>
-  <a href="">nos atouts</a>
-  <a href="">recrutement 3a</a>
-  <a href="">actualités</a>
+<nav role="navigation">
+  <div id="menuToggle">
+    
+    <input type="checkbox"/>
+    
+    <span></span>
+    <span></span>
+    <span></span>
+    
+
+    <ul id="menu">
+      <a href="#"><li>Accueil</li></a>
+      <a href="#"><li>Nos services</li></a>
+      <a href="#"><li>Nos atouts</li></a>
+      <a href="#"><li>recrutement 3A</li></a>
+      <a href="#"><li>Actualités</li></a>
+    </ul>
+  </div>
 </nav>
-</div>
-
-
+ 
 </header>
 <!-- ======================FIN HEADER=========================== -->
 
