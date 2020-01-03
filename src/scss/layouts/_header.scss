@@ -1,5 +1,5 @@
 header{
-    padding: 30px 0;
+    padding: 30px 0 20px 0;
     display: flex;
     flex-direction: column;
     background-color: #499CA6;
@@ -30,8 +30,35 @@ header{
      }
 
      header h3{
-         font-size: 1.5rem;
+         font-size: 1.8rem;
          color: white;
          margin-top: -20px;
          margin-bottom: 20px;
      }
+
+     @media(min-width: 768px){
+
+        .header-content{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+           align-items: center;
+        } 
+
+        .header-content img{
+            margin: 15px 0;
+            left: 10px;
+        }
+
+       .header-part-two{
+           margin: auto auto;
+           text-align: center;
+       }
+
+
+        header ul li{
+            list-style-type: none;
+            justify-content: space-between;
+            padding: 0 20px;
+     }
+    }
