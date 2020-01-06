@@ -34,9 +34,8 @@
    top: -7px;
    left: -5px;
    cursor: pointer;
-
-   opacity: 0; /* hide this */
-   z-index: 2; /* and place it over the hamburger */
+   opacity: 0;
+   z-index: 2;
  }
  
 // traits du burger
@@ -102,12 +101,8 @@
    border-radius: 20px;
    background: #499CA6;
    list-style-type: none;
-   -webkit-font-smoothing: antialiased;
-   /* to stop flickering of text in safari */
-   
    transform-origin: 0% 0%;
    transform: translate(100%, 0);
-   
    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
  }
  
@@ -117,15 +112,11 @@
    font-size: 22px;
  }
  
- /*
-  * And let's fade it in from the left
-  */
  #menuToggle input:checked ~ ul
  {
    transform: none;
    opacity: 1;
  }
- 
  
    #menu {
      transform: none;
