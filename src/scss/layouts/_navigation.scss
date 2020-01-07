@@ -1,15 +1,13 @@
 /* PICTO MENU BURGER*/
 
- 
-#menuToggle a
-{
+
+#menuToggle a {
   text-decoration: none;
   color: #ffffff;
   transition: 0.3s ease;
 }
 
-#menuToggle a:hover
-{
+#menuToggle a:hover {
   font-weight: bold;
   font-size: 18px;
 }
@@ -21,146 +19,138 @@
 
 
 @media screen and (max-width: 767px) {
- #menuToggle
- {
-   display: block;
-   position: relative;
-   left: calc(50% - 20px);
-   z-index: 1;
- }
+  #menuToggle {
+    display: block;
+    position: relative;
+    left: calc(50% - 20px);
+    z-index: 1;
+  }
 
- 
- #menuToggle input
- {
-   display: block;
-   width: 40px;
-   height: 32px;
-   position: absolute;
-   top: -7px;
-   left: -5px;
-   cursor: pointer;
-   opacity: 0;
-   z-index: 2;
- }
- 
-// traits du burger
- #menuToggle span
- {
-   display: block;
-   width: 33px;
-   height: 4px;
-   margin-bottom: 5px;
-   position: relative;
-   background: rgb(255, 255, 255);
-   border-radius: 3px;
-   z-index: 1;
-   transform-origin: 4px 0px;
-   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-            
- }
- 
- #menuToggle span:first-child
- {
-   transform-origin: 0% 0%;
- }
- 
- #menuToggle span:nth-last-child(2)
- {
-   transform-origin: 0% 100%;
- }
- 
- /* 
+
+  #menuToggle input {
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 2;
+  }
+
+  // traits du burger
+  #menuToggle span {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+    background: rgb(255, 255, 255);
+    border-radius: 3px;
+    z-index: 1;
+    transform-origin: 4px 0px;
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+
+  }
+
+  #menuToggle span:first-child {
+    transform-origin: 0% 0%;
+  }
+
+  #menuToggle span:nth-last-child(2) {
+    transform-origin: 0% 100%;
+  }
+
+  /* 
  Passer d'un burger à une croix
   */
-//   le 1er trait tourne
- #menuToggle input:checked ~ span
- {
-   opacity: 1;
-   transform: rotate(45deg) translate(-2px, -1px);
-   background: rgb(255, 255, 255);
- }
- 
- /*
+  //   le 1er trait tourne
+  #menuToggle input:checked~span {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: rgb(255, 255, 255);
+  }
+
+  /*
   pour cacher le dernier
   */
- #menuToggle input:checked ~ span:nth-last-child(3)
- {
-   opacity: 0;
-   transform: rotate(0deg) scale(0.2, 0.2);
- }
- 
- /*
+  #menuToggle input:checked~span:nth-last-child(3) {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+  }
+
+  /*
   pour faire tourner le 2eme
   */
- #menuToggle input:checked ~ span:nth-last-child(2)
- {
-   transform: rotate(-45deg) translate(0, -1px);
- }
- 
- #menu
- {
-   position: absolute;
-   width: 250px;
-   margin: -20px 0 0 0;
-   padding: 10px;
-   border-radius: 20px;
-   background: #499CA6;
-   list-style-type: none;
-   transform-origin: 0% 0%;
-   transform: translate(100%, 0);
-   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
- }
- 
- #menu li
- {
-   padding: 10px 0;
-   font-size: 22px;
- }
- 
- #menuToggle input:checked ~ ul
- {
-   transform: none;
-   opacity: 1;
- }
- 
-   #menu {
-     transform: none;
-     opacity: 0;
- 
-     transition: opacity 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-   }
- }
+  #menuToggle input:checked~span:nth-last-child(2) {
+    transform: rotate(-45deg) translate(0, -1px);
+  }
 
- @media screen and (min-width: 768px) {
- #menuToggle input{
-     display: none;
- }
+  #menu {
+    position: absolute;
+    width: 250px;
+    margin: -20px 0 0 0;
+    padding: 10px;
+    border-radius: 20px;
+    background: #499CA6;
+    list-style-type: none;
+    transform-origin: 0% 0%;
+    transform: translate(100%, 0);
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+  }
 
- #menu{
-     display: flex;
-     justify-content: space-between;
-     margin: auto;
-     padding-left: 0;
-     font-size: 20px;
-     }
+  #menu li {
+    padding: 10px 0;
+    font-size: 22px;
+  }
 
-     .header-content{
-       display: flex;
-       justify-content: space-evenly;
-     }
+  #menuToggle input:checked~ul {
+    transform: none;
+    opacity: 1;
+  }
 
-     .header-content img{
-       width: 7rem;
-    
-     }
+  #menu {
+    transform: none;
+    opacity: 0;
 
-     nav{
-       margin: auto;
-     }
+    transition: opacity 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+  }
+}
 
-     #menuToggle a:hover{
-       font-size: 22©px;
-     }
+@media screen and (min-width: 768px) {
+  #menuToggle input {
+    display: none;
+  }
 
-    }
-    
+  #menu {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-left: 0;
+    font-size: 20px;
+  }
+
+  .header-content {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .header-content img {
+    width: 7rem;
+    margin: 0 0 1rem;
+  }
+
+  nav {
+    margin: auto;
+  }
+
+  nav li:first-of-type {
+    padding-left: 0;
+  }
+
+  #menuToggle a:hover {
+    font-size: 22px;
+  }
+
+}

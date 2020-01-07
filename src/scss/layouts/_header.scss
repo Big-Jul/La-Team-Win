@@ -58,15 +58,20 @@ header{
        .header-part-two{
            margin: auto auto;
            text-align: center;
+           display: flex;
+           justify-content: stretch;
        }
 
        .header-tel p{
            font-size: 24px;
            }
        
-       header h3{
-       margin-top: -70px;
-       margin-bottom: 50px;
+           header h3 {
+            font-size: 1.8rem;
+            color: white;
+            margin-top: auto;
+            margin-bottom: 70px;
+            margin: auto;
        }
 
         header ul li{
