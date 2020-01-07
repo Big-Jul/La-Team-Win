@@ -18,12 +18,17 @@ header{
 
 .header-content{
     text-align: center;
+    margin: 0 auto;
+    display: flex;
 
      }
 
      .header-content img{
-         margin: 15px auto;
-     }
+            margin: 0 auto 40px;
+            width: 6rem;
+          }
+          
+     
 
      header ul li{
          list-style-type: none;
@@ -46,7 +51,7 @@ header{
         } 
 
         .header-content img{
-            margin: 15px 0;
+            margin: 15px 0 15px 20px;
             left: 10px;
         }
 
@@ -55,10 +60,19 @@ header{
            text-align: center;
        }
 
+       .header-tel p{
+           font-size: 24px;
+           }
+       
+       header h3{
+       margin-top: -70px;
+       margin-bottom: 50px;
+       }
 
         header ul li{
             list-style-type: none;
             justify-content: space-between;
             padding: 0 20px;
+
      }
     }
