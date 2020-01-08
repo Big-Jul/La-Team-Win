@@ -14,7 +14,9 @@
   background-size: 10rem;
   color: #8C615D;
   text-transform: uppercase;
-  font-size: 3rem;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 20px 0;
 }
 
 .avt-article .title{
@@ -29,12 +31,16 @@ position: absolute;
 margin-top: -25px;
 }
 
+.avt-article{
+  margin: 20px auto;
+  
+}
 .avt-card{
   background-color: #fff;
   color: #499CA6;
   font-size: 18px;
   padding: 40px 30px 20px 30px;
-  margin:  2rem  ;
+  margin:  3rem;
  padding-top: auto;
  width: 80vw;
  box-shadow: 3px 6px 8px rgb(156, 156, 156)
@@ -42,7 +48,6 @@ margin-top: -25px;
 
 //------------------ TEMOIGNAGES  ------------------
 
-  
 
 
 //------------------ END SECTION POURQUOI JULIA ------------------
