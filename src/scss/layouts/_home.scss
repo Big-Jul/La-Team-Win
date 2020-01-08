@@ -1,2 +1,24 @@
+//------------------ SECTION POURQUOI JULIA ------------------
+.pourquoi{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #B0D5D9;
+}
+.avt-article .title{
+  width: fit-content;
+background-color: #D94A70;
+border-radius: 10px;
+padding: 10px 20px;
+color: white;
+position: absolute;
+}
 
+.avt-card{
+  background-color: #fff;
+  color: #499CA6;
+  padding: 40px 30px;
+  margin:  14px 3%;
+ padding-top: auto;
+}
   
