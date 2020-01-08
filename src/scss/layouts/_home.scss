@@ -1,24 +1,49 @@
 //------------------ SECTION POURQUOI JULIA ------------------
+
+//------------------ CARTES AVANTAGES  ------------------
 .pourquoi{
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #B0D5D9;
+  background-color: rgb(196, 231, 235);
 }
+
+.section-title{
+  margin: 30px auto;
+  background: url(../../images/bg-main-pourquoi.png) no-repeat center;
+  background-size: 10rem;
+  color: #8C615D;
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
 .avt-article .title{
-  width: fit-content;
+width: fit-content;
 background-color: #D94A70;
 border-radius: 10px;
 padding: 10px 20px;
 color: white;
+text-align: center;
+text-justify: auto;
 position: absolute;
+margin-top: -25px;
 }
 
 .avt-card{
   background-color: #fff;
   color: #499CA6;
-  padding: 40px 30px;
-  margin:  14px 3%;
+  font-size: 18px;
+  padding: 40px 30px 20px 30px;
+  margin:  2rem  ;
  padding-top: auto;
+ width: 80vw;
+ box-shadow: 3px 6px 8px rgb(156, 156, 156)
 }
+
+//------------------ TEMOIGNAGES  ------------------
+
   
+
+
+//------------------ END SECTION POURQUOI JULIA ------------------
+
