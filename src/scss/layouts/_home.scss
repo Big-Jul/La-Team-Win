@@ -47,7 +47,58 @@ margin-top: -25px;
 }
 
 //------------------ TEMOIGNAGES  ------------------
+.article-content{
+  display: flex;
+  margin: 20px 10px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  flex-wrap: wrap;
+  font-style: italic;
+  box-shadow: 3px 6px 8px rgb(156, 156, 156)
+}
 
+
+.title-bis{
+  color: #D94A70;
+  text-align: center;
+}
+
+.comm{
+  color: #707070;
+  padding-top: 15px;
+}
+.guill{
+  color: #D94A70;
+}
+
+.tem{
+  margin-right: auto;
+}
+
+.tem-img{
+  right: 10px;
+  margin-left: auto;
+}
+
+.main-tem{
+  position: absolute;
+  margin-top: -40px;  
+  width: 180px;
+}
+
+.noms{
+padding: 10px 50px;
+  color: #D94A70;
+  margin-bottom: 0;
+}
+
+#tem-2{
+  flex-direction: row-reverse;
+
+  .noms{
+    margin-right: auto;
+  }
+}
 
 
 //------------------ END SECTION POURQUOI JULIA ------------------
