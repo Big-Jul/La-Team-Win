@@ -42,7 +42,7 @@
   background-color: #fff;
   color: #499CA6;
   font-size: 18px;
-  padding: 40px 30px 20px 30px;
+  padding: 40px 30px 30px 30px;
   margin-bottom:  3rem auto;
   margin-top: 50px;
  padding-top: auto;
@@ -55,7 +55,7 @@
 .article-content{
   display: flex;
   margin: 20px 10px;
-  padding: 10px 20px;
+  padding: 20px;
   border-radius: 20px;
   flex-wrap: wrap;
   font-style: italic;
@@ -71,8 +71,11 @@
 
 .comm{
   color: #707070;
-  padding-top: 15px;
+  font-size: smaller;
+  flex-basis: 50%;
+  margin-bottom: 0;
 }
+
 .guill{
   color: #D94A70;
 }
@@ -83,20 +86,33 @@
 
 .tem-img{
   right: 10px;
-  margin-left: auto;
+   margin-left: auto;
+}
+
+#solene{
+  margin-right: auto;
+}
+
+.img-tem{
+  width: 120px;
 }
 
 .main-tem{
   position: absolute;
-  margin-top: -40px;  
-  width: 180px;
+  width: 120px;
+  margin-top: -30px;  
+ 
 }
 
 .noms{
-padding: 10px 50px;
+  padding: 10px 20px 0;
   color: #D94A70;
   margin-bottom: 0;
+  margin-left: auto;
+  font-size: smaller;
+  margin-bottom: 0;
 }
+
 
 #tem-2{
   flex-direction: row-reverse;
@@ -107,11 +123,56 @@ padding: 10px 50px;
   }
 }
 
-@media(min-width:960px){
-  .pourquoi{
-    display: flex;
-    flex-direction: row;
+@media(min-width:426px){
+  .noms{
+    font-size: medium;
+    margin-top: 20px;
+    margin-left: 0;
+  }
+
+  #tem-2 .noms {
+      margin-right: 0;
+      padding-right: 50px;
+  }
+
+  .comm{
+    font-size: 18px;
+  }
+
+  .img-tem{
+    width: 100%;
+  }
+
+.main-tem{
+  width: 160px;
+  margin: -30px auto 0;
 }
+}
+
+@media(min-width:769px){
+
+.pourquoi{
+  display: flex;
+flex-direction: row;
+padding: 0 20px;
+align-items: center;
+}
+
+.part-1{
+  flex-basis: 45%;
+}
+
+.part-2{
+  flex-basis: 45%;
+}
+.avt-card{
+  width: auto;
+}
+
+.title-bis{
+  margin-block-start: 0;
+}
+
 }
 //------------------ END SECTION POURQUOI JULIA ------------------
 
