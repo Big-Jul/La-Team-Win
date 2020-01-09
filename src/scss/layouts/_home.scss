@@ -59,12 +59,14 @@
   border-radius: 20px;
   flex-wrap: wrap;
   font-style: italic;
+  max-width: 570px;
   box-shadow: 3px 6px 8px rgb(156, 156, 156)
 }
 
 .title-bis{
   color: #D94A70;
   text-align: center;
+  margin: 40px auto 30px;
 }
 
 .comm{
@@ -101,6 +103,7 @@ padding: 10px 50px;
 
   .noms{
     margin-right: auto;
+    margin-left: 50px;
   }
 }
 
