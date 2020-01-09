@@ -1,17 +1,20 @@
 //------------------ SECTION POURQUOI JULIA ------------------
 
 //------------------ CARTES AVANTAGES  ------------------
+.temoignage{
+  background-color: rgb(196, 231, 235);
+  padding: 30px 0;
+}
 .pourquoi{
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(196, 231, 235);
   padding: 25px 0;
 }
 
 
 .section-title{
-  margin: 30px auto;
+  margin: 0 auto;
   background: url(../../images/bg-main-pourquoi.png) no-repeat center;
   background-size: 10rem;
   color: #8C615D;
@@ -80,9 +83,6 @@
   color: #D94A70;
 }
 
-.tem{
-  margin-right: auto;
-}
 
 .tem-img{
   right: 10px;
@@ -123,9 +123,23 @@
   }
 }
 
+.find-us{
+  font-size: 20px;
+  background-color: #D94A70;
+  padding: 10px 50px;
+  border-radius: 10px;
+  color: white;
+  margin: 30px 0 30px calc(50% - 100px);
+}
+
 @media(min-width:426px){
+
+   #tem-bis{
+     margin-left: auto;
+   }
+
   .noms{
-    font-size: medium;
+    font-size: 18px;
     margin-top: 20px;
     margin-left: 0;
   }
@@ -145,11 +159,12 @@
 
 .main-tem{
   width: 160px;
-  margin: -30px auto 0;
+  margin: -25px auto 0;
 }
 }
 
-@media(min-width:769px){
+
+@media(min-width:964px){
 
 .pourquoi{
   display: flex;
@@ -165,14 +180,28 @@ padding: 0 20px;
 .part-2{
   flex-basis: 45%;
 }
+
 .avt-card{
-  width: auto;
+  width: auto; 
 }
 
 .title-bis{
   margin-block-start: 0;
 }
+#tem-bis{
+  margin-left: 0 ;
+}
 
+.noms{
+  font-size: 18px;
+  margin-top: 20px;
+  margin-left: auto;
+}
+
+#tem-2 .noms {
+    margin-right: auto;
+    padding-right: 50px;
+}
 }
 //------------------ END SECTION POURQUOI JULIA ------------------
 
