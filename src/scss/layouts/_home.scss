@@ -9,6 +9,7 @@
   padding: 25px 0;
 }
 
+
 .section-title{
   margin: 30px auto;
   background: url(../../images/bg-main-pourquoi.png) no-repeat center;
@@ -38,7 +39,6 @@
 }
 
 .avt-card{
-
   background-color: #fff;
   color: #499CA6;
   font-size: 18px;
@@ -107,6 +107,11 @@ padding: 10px 50px;
   }
 }
 
-
+@media(min-width:960px){
+  .pourquoi{
+    display: flex;
+    flex-direction: row;
+}
+}
 //------------------ END SECTION POURQUOI JULIA ------------------
 
