@@ -6,6 +6,7 @@
   flex-direction: column;
   align-items: center;
   background-color: rgb(196, 231, 235);
+  padding: 25px 0;
 }
 
 .section-title{
@@ -19,30 +20,34 @@
   padding: 20px 0;
 }
 
-.avt-article .title{
-width: fit-content;
-background-color: #D94A70;
-border-radius: 10px;
-padding: 10px 20px;
-color: white;
-text-align: center;
-text-justify: auto;
-position: absolute;
-margin-top: -25px;
+.avt-article .title {
+  width: fit-content;
+  background-color: #D94A70;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: white;
+  text-align: center;
+  text-justify: auto;
+  position: absolute;
+  margin-top: -25px;
+  margin-left: -25px;
 }
 
 .avt-article{
   margin: 20px auto;
-  
 }
+
 .avt-card{
+
   background-color: #fff;
   color: #499CA6;
   font-size: 18px;
   padding: 40px 30px 20px 30px;
-  margin:  3rem;
+  margin-bottom:  3rem auto;
+  margin-top: 50px;
  padding-top: auto;
  width: 80vw;
+ max-width: 710px;
  box-shadow: 3px 6px 8px rgb(156, 156, 156)
 }
 
@@ -56,7 +61,6 @@ margin-top: -25px;
   font-style: italic;
   box-shadow: 3px 6px 8px rgb(156, 156, 156)
 }
-
 
 .title-bis{
   color: #D94A70;
