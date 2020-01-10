@@ -26,6 +26,6 @@ $(document).ready(function () {
       $(".main-nav .has-sublist > a").not(this).removeClass("expanded");
     });
     
-    
+      
     });
 
