@@ -123,13 +123,22 @@
   }
 }
 
-.find-us{
+.btn-secondary{
+  border: none;
   font-size: 20px;
   background-color: #D94A70;
   padding: 10px 50px;
   border-radius: 10px;
   color: white;
   margin: 30px 0 30px calc(50% - 100px);
+  transition-property: background-color, color, border;
+    transition-duration: 0.3s;
+
+  &:hover{
+    color: #D94A70;
+    background-color: #fff;
+    border: #D94A70 solid 2px;
+  }
 }
 
 @media(min-width:426px){
